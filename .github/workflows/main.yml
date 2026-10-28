@@ -1,0 +1,13 @@
+name: Disabled Work Flow 
+on:
+   push: 
+     branches: [main]
+
+jobs:
+  disable:
+     runs-on: ubantu-latest
+     
+     steps: 
+      - name: Disabled Kulshresth
+        run: echo "Disabled work flow"
+  
